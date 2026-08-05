@@ -1,0 +1,28 @@
+{
+  "title": "DBITS Framework Validation",
+  "author": "Donte Lightfoot",
+  "paper": "Dynamic Quantum Bits (dbits): A Framework for Stateful Quantum Information Processing",
+  "source_pdf": "E:\\dbit_framework_corrected.pdf",
+  "generated_utc": "2026-08-05T03:57:50.277033+00:00",
+  "summary": {
+    "n_proofs": 6,
+    "n_pass": 6,
+    "n_fail": 0,
+    "overall": "PASS"
+  },
+  "scale": {
+    "n_agents": 64,
+    "steps": 500,
+    "decay_ratio": 2.312640866116771e-89
+  },
+  "max_rho_inside_stability_box": 0.9414213562373095,
+  "content_hash": "47ef7861e95ac8660981912c2b2a65191143c8c6d16cbd598b1715facaad490b",
+  "proofs": [
+    {"name": "Jacobian spectral radius / stability box", "status": "PASS", "equation_ids": ["Eq.101","Eq.102","Eq.103","Eq.104","Eq.105","Eq.106","Eq.107"], "max_rho_inside": 0.9414213562373095},
+    {"name": "Lyapunov V contraction along discrete trajectory", "status": "PASS", "equation_ids": ["Eq.34","Eq.41","Eq.42","Eq.48"], "monotone_nonincreasing": true},
+    {"name": "Gate family Lyapunov / contraction certificates", "status": "PASS", "equation_ids": ["§6.5 Family 1-10"]},
+    {"name": "Continuous PL composite Lyapunov", "status": "PASS", "equation_ids": ["Eq.134","Eq.136","Eq.139","Eq.140","Eq.143"]},
+    {"name": "Primal-Heisenberg C_PL positivity & bounds", "status": "PASS", "equation_ids": ["Eq.150","Eq.151","Eq.159","Eq.161","Thm.9.3"]},
+    {"name": "Scale multi-dbit simulation N=64", "status": "PASS", "equation_ids": ["Eq.65","Eq.101","Eq.107","Thm.6.7"], "decay_ratio": 2.312640866116771e-89}
+  ]
+}
